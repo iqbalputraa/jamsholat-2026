@@ -1,0 +1,10 @@
+# Folder assets harus berisi file suara adzan, misalnya:
+#
+#   assets/adzan.mp3        -> suara adzan yang diputar saat waktunya masuk
+#
+# Ganti file ini dengan adzan.mp3 sungguhan (format mp3, file relatif kecil
+# lebih baik). Path yang dipakai di kode: assets/adzan.mp3
+#
+# Kalau mau ganti file / nama lain, update juga di:
+#   - pubspec.yaml (bagian assets)
+#   - Preferensi 'adzan_asset' di app kalau mau pakai path berbeda
